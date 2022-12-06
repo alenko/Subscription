@@ -7,11 +7,11 @@ codeunit 50300 "CSD Subscription Mgt"
         CustomerSubscription: Record "CSD Customer Subscription";
         Subscription: Record "CSD Subscription";
     begin
-        OnBeforeUpdateSubscriptions(SalesInvHdrNo);
+        OnBeforePostingSalesDocUpdateSubscriptionsSetFilters(SalesInvoiceLine);
         SalesInvoiceLine.SetFilter("Document No.", SalesInvHdrNo);
         if SalesInvoiceLine.FindSet() then
             repeat
-                OnBeforeUpdateCustomerSubscriptions(CustomerSubscription);
+                OnBeforePostingSalesDocUpdateSubscriptions(CustomerSubscription, SalesInvoiceLine);
                 CustomerSubscription.SetRange("Customer No.", SalesInvoiceLine."Sell-to Customer No.");
                 CustomerSubscription.SetRange("Item No.", SalesInvoiceLine."No.");
                 if CustomerSubscription.FindFirst() then begin
@@ -23,23 +23,13 @@ codeunit 50300 "CSD Subscription Mgt"
             until SalesInvoiceLine.Next() = 0;
     end;
 
-    local procedure PBA()
-    var
-        myInt: Integer;
-    begin
-
-    end;
-
     [IntegrationEvent(false, false)]
-
-    local procedure OnBeforeUpdateSubscriptions(SalesInvHdrNo: Code[20])
-
-
+    local procedure OnBeforePostingSalesDocUpdateSubscriptions(var CustomerSubscription: Record "CSD Customer Subscription"; SalesInvoiceLine: Record "Sales Invoice Line")
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeUpdateCustomerSubscriptions(CustomerSubscriptions: Record "CSD Customer Subscription")
+    local procedure OnBeforePostingSalesDocUpdateSubscriptionsSetFilters(var SalesInvoiceLine: Record "Sales Invoice Line")
     begin
     end;
 }

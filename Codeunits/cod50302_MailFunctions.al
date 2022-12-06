@@ -32,7 +32,7 @@ codeunit 50302 "Mail Functions"
         inShipShipHeader.SetRecFilter();
         if ReportSelection.FindSet() then
             repeat
-                ReportSelection.SendEmailToCust(ReportSelection.Usage::"S.Invoice".AsInteger(),
+                ReportSelection.SendEmailToCust(ReportSelection.Usage::"S.Shipment".AsInteger(),
                                                 inShipShipHeader,
                                                 inShipShipHeader."No.",
                                                 '',

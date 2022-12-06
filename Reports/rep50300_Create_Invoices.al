@@ -14,9 +14,9 @@ report 50300 "CSD Create Invoices"
             var
                 CreateWarningTxt: Label 'Create Invoices for subscriptions?';
             begin
-                OnPredataItemAfterConfirm("Customer Subscription");
                 if not Confirm(CreateWarningTxt) then
                     exit;
+                OnPreDataItemAfterConfirm("Customer Subscription");
                 "Customer Subscription".SetRange(Active, true);
                 "Customer Subscription".SetFilter("Next Invoice Date", '<=%1', WorkDate());
             end;
@@ -28,8 +28,8 @@ report 50300 "CSD Create Invoices"
                 NextLineNo: Integer;
                 SalesHeader: Record "Sales Header";
                 SalesLine: Record "Sales Line";
-
             begin
+                OnBeforeAfterGetRecord("Customer Subscription");
                 if ("Customer No." <> OldCustomerNo) or ("Next Invoice Date" <> OldInvoiceDate) then begin
                     OldCustomerNo := "Customer Subscription"."Customer No.";
                     OldInvoiceDate := "Customer Subscription"."Next Invoice Date";
@@ -40,12 +40,10 @@ report 50300 "CSD Create Invoices"
                     SalesHeader.Validate("Sell-to Customer No.", "Customer Subscription"."Customer No.");
                     SalesHeader.Validate("Location Code", '');
                     SalesHeader.Validate("Posting Date", "Customer Subscription"."Next Invoice Date");
-                    OnBeforeSalesHeader("Customer Subscription", SalesHeader);
-                    OnBeforeAfterGetRecord("Customer Subscription");
+                    OnBeforeSalesHeaderModify("Customer Subscription", SalesHeader);
                     SalesHeader.Modify();
                     InvoiceCounter += 1;
                 end;
-
                 NextLineNo += 10000;
                 SalesLine.Init();
                 SalesLine."Document No." := SalesHeader."No.";
@@ -58,7 +56,6 @@ report 50300 "CSD Create Invoices"
                 SalesLine.Validate(Quantity, 1);
                 SalesLine.Validate("Allow Line Disc.", "Customer Subscription"."Allow Line Discount");
                 SalesLine.Validate("Unit Price", "Customer Subscription"."Invoicing Price");
-                OnBeforeSalesHeader("Customer Subscription", SalesHeader);
                 SalesLine.Modify();
             end;
 
@@ -71,22 +68,21 @@ report 50300 "CSD Create Invoices"
         }
     }
 
-
     var
         InvoiceCounter: Integer;
 
     [IntegrationEvent(false, false)]
-    local procedure OnPredataItemAfterConfirm("Customer Subscription": Record "CSD Customer Subscription")
+    local procedure OnPreDataItemAfterConfirm("Customer Subscription": Record "CSD Customer Subscription");
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeAfterGetRecord("Customer Subscription": Record "CSD Customer Subscription")
+    local procedure OnBeforeAfterGetRecord("Customer Subscription": Record "CSD Customer Subscription");
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeSalesHeader("Customer Subscription": Record "CSD Customer Subscription"; var SalesHeader: Record "Sales Header")
+    local procedure OnBeforeSalesHeaderModify("Customer Subscription": Record "CSD Customer Subscription"; var SalesHeader: Record "Sales Header")
     begin
     end;
 }
