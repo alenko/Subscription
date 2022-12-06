@@ -24,7 +24,23 @@ page 50348 "CustomerBalanceReport"
             }
         }
 
+
     }
+    actions
+    {
+        // Adds the action called "My Actions" to the Action menu 
+        area(Processing)
+        {
+            action(GeneratePDF)
+            {
+        var
+            CustomerBalances: Record "Customer Balance";
+            PDFDocument: Codeunit "PDF Generator";
 
+            CustomerBalances.SetRange("Balance", ">", 0);
+        PDFDocument.GenerateFromPage(CustomerBalances, 50100);
+        PDFDocument.SaveToIncomingDocuments("My Custom Name.pdf");
+    }
+        }
 
-}
+    }
