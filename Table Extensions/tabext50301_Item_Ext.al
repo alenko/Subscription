@@ -1,8 +1,8 @@
-tableextension 50101 "CSD Item" extends Item
+tableextension 50301 "CSD Item" extends Item
 {
     fields
     {
-        field(50100; "CSD Subscription Item"; Boolean)
+        field(50300; "CSD Subscription Item"; Boolean)
         {
             Caption = 'Subscription Item';
             FieldClass = FlowField;

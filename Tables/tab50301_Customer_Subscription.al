@@ -1,4 +1,4 @@
-table 50101 "CSD Customer Subscription"
+table 50301 "CSD Customer Subscription"
 {
     Caption = 'Customer Subscription';
     DataClassification = AccountData;
@@ -66,7 +66,7 @@ table 50101 "CSD Customer Subscription"
                 Subscription: Record "CSD Subscription";
             begin
                 Subscription.Get("Subscription Code");
-                
+
                 Case Subscription."Invoicing Schedule" of
                     Subscription."Invoicing Schedule"::"Beginning of Next Period":
                         "Start Date" := CalcDate('<CM+1D>', WorkDate());

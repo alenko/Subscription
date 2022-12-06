@@ -1,4 +1,4 @@
-page 50101 "CSD Subscription List"
+page 50301 "CSD Subscription List"
 {
     Caption = 'Subscriptions';
     PageType = List;

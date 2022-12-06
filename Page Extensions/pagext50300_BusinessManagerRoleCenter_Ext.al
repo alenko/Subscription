@@ -1,4 +1,4 @@
-pageextension 50105 "CSD Business Manager RC" extends "Business Manager Role Center"
+pageextension 50305 "CSD Business Manager RC" extends "Business Manager Role Center"
 {
 
     actions

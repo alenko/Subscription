@@ -1,4 +1,4 @@
-pageextension 50101 "CSD Customer List" extends "Customer List"
+pageextension 50301 "CSD Customer List" extends "Customer List"
 {
     layout
     {

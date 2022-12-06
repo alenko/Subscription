@@ -1,4 +1,4 @@
-pageextension 50100 "CSD Customer Card" extends "Customer Card"
+pageextension 50300 "CSD Customer Card" extends "Customer Card"
 {
     layout
     {

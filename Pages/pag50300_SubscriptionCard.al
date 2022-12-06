@@ -1,41 +1,41 @@
-page 50100 "CSD Subscription Card"
+page 50300 "CSD Subscription Card"
 {
-    Caption='Subscription Card';
+    Caption = 'Subscription Card';
     PageType = Card;
     SourceTable = "CSD Subscription";
-    
+
     layout
     {
         area(Content)
         {
             group(General)
             {
-                Caption='General';
-                field(Code;Rec.Code)
+                Caption = 'General';
+                field(Code; Rec.Code)
                 {
                     ApplicationArea = All;
-                    
+
                 }
-                field(Name;Rec.Name)
+                field(Name; Rec.Name)
                 {
                     ApplicationArea = All;
-                    
+
                 }
-                field("Item Number";Rec."Item Number")
+                field("Item Number"; Rec."Item Number")
                 {
                     ApplicationArea = All;
-                    
+
                 }
-                field("Invoicing Schedule";Rec."Invoicing Schedule")
+                field("Invoicing Schedule"; Rec."Invoicing Schedule")
                 {
                     ApplicationArea = All;
-                    
+
                 }
-                field("Invoicing Frequence";Rec."Invoicing Frequence")
+                field("Invoicing Frequence"; Rec."Invoicing Frequence")
                 {
                     ApplicationArea = All;
                 }
-                field("Invoicing Price";Rec."Invoicing Price")
+                field("Invoicing Price"; Rec."Invoicing Price")
                 {
                     ApplicationArea = All;
                 }

@@ -1,4 +1,4 @@
-page 50102 "CSD Customer Subscriptions"
+page 50302 "CSD Customer Subscriptions"
 {
     Caption = 'Customer Subscriptions';
     PageType = List;
@@ -61,7 +61,7 @@ page 50102 "CSD Customer Subscriptions"
 
     trigger OnOpenPage()
     begin
-        ShowCustomerNo := Rec.GetFilter("Customer No.")<>'';
+        ShowCustomerNo := Rec.GetFilter("Customer No.") <> '';
     end;
 
     var

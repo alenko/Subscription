@@ -1,4 +1,4 @@
-pageextension 50104 "CSD Item List" extends "Item List"
+pageextension 50304 "CSD Item List" extends "Item List"
 {
     layout
     {

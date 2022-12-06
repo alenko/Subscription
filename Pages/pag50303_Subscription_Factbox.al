@@ -1,4 +1,4 @@
-page 50103 "CSD Subscription Factbox"
+page 50303 "CSD Subscription Factbox"
 {
     PageType = ListPart;
     SourceTable = "CSD Customer Subscription";
