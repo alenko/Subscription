@@ -34,11 +34,10 @@ page 50348 "CustomerBalanceReport"
             action(GeneratePDF)
             {
         var
-            CustomerBalances: Record "Customer Balance";
             PDFDocument: Codeunit "PDF Generator";
 
             CustomerBalances.SetRange("Balance", ">", 0);
-        PDFDocument.GenerateFromPage(CustomerBalances, 50100);
+        PDFDocument.GenerateFromPage(CustomerBalances, 50348);
         PDFDocument.SaveToIncomingDocuments("My Custom Name.pdf");
     }
         }
