@@ -41,7 +41,9 @@ report 50301 "CSD SubScription Customers"
             }
         }
     }
-
+    ReportName := 'MyReport';
+IncomingCode := 'INV001';
+SendToIncoming(ReportName, IncomingCode);
     labels
     {
         ReportNameCap = 'Customer List';

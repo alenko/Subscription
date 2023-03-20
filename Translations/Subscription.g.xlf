@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Subscription">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2015715709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Subscription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 310271998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Line Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Allow Line Discount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 2413816801 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancelled Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Cancelled Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 1276835235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Invoicing Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 2515859609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Invoice Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Last Invoice Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 187562030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Invoice Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Next Invoice Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2015715709 - Field 2829069522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subscription Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Subscription - Field Subscription Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Field 866715734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deferral Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Field Deferral Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Field 1142705288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing Frequence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Field Invoicing Frequence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Field 1276835235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Field Invoicing Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Field 1264738611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing Schedule</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Field Invoicing Schedule - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Field 1264738611 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date,Beginning of Period,End of Period,Beginning of Next Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Field Invoicing Schedule - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Field 1763702386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Field Item Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1331011729 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Subscription - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1303091124 - Method 365808867 - NamedType 3082053221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User %1 does not have permissions to change %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Event Subscriptions - Method TestIfAllowedChangeBank - NamedType ErrorMessageTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2957357364 - Method 2037965902 - NamedType 218166550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send mail to %1 and including %2 attachments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Mail Functions - Method SendDeliveryNoteByMail - NamedType ConfirmTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3350134868 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Subscriptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Customer Subscriptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 100692509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subscription Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Subscription Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 100692509 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Subscription Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3939412423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subscriptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Subscription List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3446370158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD Create Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3446370158 - ReportDataItem 1442859233 - Method 3715240 - NamedType 1813255639" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Invoices created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD Create Invoices - ReportDataItem Customer Subscription - Method OnPostDataItem - NamedType InvCounterTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 3446370158 - ReportDataItem 1442859233 - Method 72583909 - NamedType 3175469754" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Invoices for subscriptions?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD Create Invoices - ReportDataItem Customer Subscription - Method OnPreDataItem - NamedType CreateWarningTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 3148817868 - ReportLabel 1291914149" size-unit="char" translate="yes" xml:space="preserve">
+          <source> of </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD SubScription Customers - ReportLabel OfCap</note>
+        </trans-unit>
+        <trans-unit id="Report 3148817868 - ReportLabel 2877743420" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD SubScription Customers - ReportLabel PageNoCap</note>
+        </trans-unit>
+        <trans-unit id="Report 3148817868 - ReportLabel 3389143765" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD SubScription Customers - ReportLabel ReportNameCap</note>
+        </trans-unit>
+        <trans-unit id="Report 3148817868 - ReportLabel 1313446380" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD SubScription Customers - ReportLabel TotalCap</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3544792964 - Action 4072358983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Create Subscription Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD Business Manager RC - Action Create Subscription Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3544792964 - Action 2585559664 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Subscription Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD Business Manager RC - Action Subscription Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3544792964 - Action 2332345844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Subscriptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD Business Manager RC - Action Subscriptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 208925704 - Action 9188936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Subscriptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD Customer Card - Action CSD Subscriptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1243147406 - Action 9188936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Subscriptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD Customer List - Action CSD Subscriptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 411005911 - Action 9188936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Subscriptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD Item Card - Action CSD Subscriptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2947044781 - Action 9188936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Subscriptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD Item List - Action CSD Subscriptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3495005692 - Field 2015715709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Customer Subscription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD Customer - Field CSD Customer Subscription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3495005692 - Field 2303302321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Gender</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD Customer - Field Gender - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3495005692 - Field 3022010021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>PBA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD Customer - Field PBA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3495005692 - Field 2690706099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>PBA2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD Customer - Field PBA2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1849628419 - Field 2306257006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Subscription Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD Item - Field CSD Subscription Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3316781086 - Field 333741693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <source>Allowed to change Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD User Setup - Field CSD Allowed change Bank Acc. - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

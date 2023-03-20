@@ -17,5 +17,9 @@ tableextension 50300 "CSD Customer" extends Customer
         {
             DataClassification = ToBeClassified;
         }
+        field(50303; "Gender"; Text[50])
+        {
+            DataClassification = CustomerContent;
+        }
     }
 }

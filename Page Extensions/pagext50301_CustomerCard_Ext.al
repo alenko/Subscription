@@ -18,6 +18,13 @@ pageextension 50300 "CSD Customer Card" extends "Customer Card"
                 Editable = false;
             }
         }
+        addfirst(General)
+        {
+            field(Gender; Rec."Gender")
+            {
+                ApplicationArea = All;
+            }
+        }
     }
 
     actions
